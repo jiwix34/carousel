@@ -1,0 +1,35 @@
+table, td, th{
+    border: 1px solid black;
+	text-align: center;
+}
+
+#profils{
+	overflow: hidden;
+}
+
+#profils div{
+	position: absolute;
+	display: none;
+}
+#profils div[name="fabrice"]{
+	display: block;
+}
+
+#vieuxporc {
+	display: flex;
+	overflow: hidden;
+	width: 400px;
+	height: 500px;
+}
+
+#carouzel{
+	position: relative;
+	top: 0;
+	transition:top 2s;
+}
+
+#carouzel div{
+	border: 1px solid black;
+	width: 400px;
+	height: 500px;
+}
